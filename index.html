@@ -1,0 +1,41 @@
+<html>
+    <head>
+       <title>Collage Web App</title>
+       <script src="main.js"></script>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+    <body style="color: aliceblue; background-color: black;">
+        
+        <div class="container">
+            <center>
+                <a href="" id="link" download="Selfie.png"></a>
+                <h1>Collage by Voice <img id="logo_img" src="camera.jpg" ></h1>
+                <hr>
+                <h4 style="color: aquamarine;">Make Your Collage by Giving Your Device a Command and then Calling Out, "TAKE MY SELFIE!"</h4>
+                <h5 style="color: beige;">Press "AllOW" as soon as pop-up comes after you've given the voice command...</h5>
+                <div class="form_group">
+                    <h3> Say, "TAKE MY SELFIE"...</h3>
+                    <label>Your Voice Output : </label>
+                    <textarea class="form-control" id="text-box" readonly="true"></textarea>
+                </div>
+<br><br>
+                <button class="btn btn-success" onclick="start()" id="start"> Start </button>
+<br><br>
+                <p>Press the START BUTTON</p>
+<br><br>
+                <label>Your Webcam : </label>
+                <div id="camera"></div>
+<br><br>
+                <label>Your Selfie will be Displayed Here : </label>
+                <div id="result"><img class="hello"src="download (2).jpg" style="width: 30%;"></div>
+                <div id="result1"><img class="hello" src="Elena Casillo Flores 4.jpg" style="width: 30%;"></div>
+                <div id="result2"><img class="hello" src="Elena.jpg" style="width: 30%;"></div>
+            </center>
+        </div>
+        
+    </body>
+</html> 
